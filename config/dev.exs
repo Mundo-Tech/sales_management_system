@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :sales_management_system, SalesManagementSystem.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "admin",
   database: "sales_management_system_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
